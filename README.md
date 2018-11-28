@@ -32,7 +32,7 @@ Here's an example *Authentication Hash* available in `request.env['omniauth.auth
 ```ruby
 {
   :provider => 'boldcashier',
-  :uid => '1234',
+  :uid => 'shopify/example-shop.myshopify.com',
   :credentials => {
     :token => 'afasd923kjh0934kf', # OAuth 2.0 access_token, which you store and use to authenticate API requests
   }
