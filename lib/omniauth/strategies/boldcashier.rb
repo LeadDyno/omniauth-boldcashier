@@ -7,6 +7,7 @@ module OmniAuth
       option :client_options, {
           :site => 'https://cashier.boldcommerce.com'
       }
+      option :provider_ignores_state, true
 
       option :setup, proc { |env|
         request = Rack::Request.new(env)
